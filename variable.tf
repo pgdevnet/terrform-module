@@ -10,7 +10,6 @@ variable "storagename" {
     default = "mystorage260985"
 }
 
-
 variable "security_rules" {
   description = "A list of security rules to be created."
   type = list(object({
